@@ -5,8 +5,9 @@ interface StartScreenProps {
   onStart: () => void;
 }
 
-const BACKGROUND_IMAGE = "url('/background-image.jpg')";
-
+export default function StartScreen({ onStart }: StartScreenProps) {
+  // Переменная должна быть ВНУТРИ функции
+  const BACKGROUND_IMAGE = "url('/background-image.jpg')";
   return (
     <div 
       className="min-h-screen flex items-center justify-center p-6 relative overflow-hidden bg-slate-900 text-slate-50 bg-cover bg-center bg-no-repeat"
