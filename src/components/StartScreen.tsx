@@ -34,7 +34,7 @@ export default function StartScreen({ onStart }: StartScreenProps) {
         >
           <div className="flex items-center gap-4 mb-8 mt-4 sm:mt-0">
             <img 
-              src={LOGO_IMAGE} 
+              src="/logo.svg"
               alt="Логотип КГТУ" 
               className="w-12 h-12 object-contain shrink-0" 
             />
@@ -94,7 +94,7 @@ export default function StartScreen({ onStart }: StartScreenProps) {
                 <Quote className="absolute top-0 right-0 w-10 h-10 text-blue-500/20" />
                 <div className="w-24 h-24 rounded-full border-2 border-slate-700/50 shadow-md bg-slate-800 overflow-hidden shrink-0 mt-4 mx-auto block">
                   <img 
-                    src={RAZZAKOV_IMAGE} 
+                    src="/razzakov.jpg"
                     alt="Исхак Раззаков" 
                     className="w-full h-full object-cover" 
                   />
