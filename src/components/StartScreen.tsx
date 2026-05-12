@@ -5,10 +5,7 @@ interface StartScreenProps {
   onStart: () => void;
 }
 
-export default function StartScreen({ onStart }: StartScreenProps) {
-  const BACKGROUND_IMAGE = "url('background-image.jpg')"; 
-  const LOGO_IMAGE = "logo.svg"; 
-  const RAZZAKOV_IMAGE = "razzakov.jpg"; 
+const BACKGROUND_IMAGE = "url('/background-image.jpg')";
 
   return (
     <div 
